@@ -14,7 +14,7 @@ root.geometry("400x200")
 # Use Threading
 def Threading():
 	t1=Thread(target=alarm)
-	t1.start()
+	t1.run()
 
 def alarm():
 	# Infinite Loop
